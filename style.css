@@ -1,0 +1,166 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+  }
+  
+  .interface{
+    width: 100%;
+    background-color:#7959b8;
+    display: flex; 
+    Align-items: Center;
+    Justify-content: Space-between;
+  }
+  .menu, a {
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    justify-content: space-between;
+    margin-right: 40px;
+  
+  }
+  
+  .logo, a, img{
+    width: 200px;
+  }
+  
+  .flex{
+     display: flex; 
+  }
+  /*ESTILO CABEÇALHO*/
+  
+  header a:hover{
+    color: rgb(209, 185, 227);
+    transform: scale(1.09);
+    transition: .2s;
+  }
+  
+  h1 .titulo{
+     color: #000000;
+     font-size: 25px; 
+     text-align: center;
+  }
+  
+  h1 .titulo span{
+    color:#7959b8 ;
+  }
+  
+  /*TOPO DO SITE*/
+  
+  section .topo_do_site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .topo_do_site, h1{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+  
+  .txt-topo-site{
+    background-color: #7959b8;
+    margin-right: 20%;
+  }
+  h1{
+    font-size: 90px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#7959b8;
+  }
+  
+  .topo_do_site .txt-topo-site p{
+      color: #000000;
+      margin: 40px 0%;
+  }
+  
+  .topo_do_site .img-topo-site img{
+      position: relative;
+      animation: nekoflu 2s ease-in-out infinite alternate;
+  }
+  
+  
+  @keyframes nekoflu{
+       0%{
+          top: 0;
+       }
+       100%{
+          top: 30px; 
+       }
+    }
+   /*segunda parte*/
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.half {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  position: relative;
+}
+
+.cream {
+  background-color: #7959b8;
+  position: relative;
+}
+
+.white {
+  background-color: #000000;
+}
+
+.text-content {
+  text-align: center;
+  position: relative;
+  width: 77%;
+}
+
+.divider {
+  width: 6px;
+  height: 60%;
+  background-color: #000000;
+  position: absolute;
+  left: 10%;
+}
+
+h1, p {
+  margin-left: 20px;
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+
+.image-content {
+  text-align: center;
+  position: relative;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background-color: #7959b8;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
